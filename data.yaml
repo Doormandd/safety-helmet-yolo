@@ -1,0 +1,22 @@
+# Safety Helmet YOLO Dataset Configuration
+# YOLOv8 dataset configuration for safety helmet detection
+
+# Dataset paths (relative to this file)
+train: ../train/images
+val: ../val/images
+test: ../test/images
+
+# Number of classes
+nc: 1
+
+# Class names
+names: ['hard_hat']
+
+# Dataset statistics
+# Total images: 5000
+# - Train: 3500 images
+# - Validation: 1000 images
+# - Test: 500 images
+
+# Label format: YOLO (class_id x_center y_center width height)
+# All coordinates are normalized (0.0 to 1.0)
